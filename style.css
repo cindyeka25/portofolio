@@ -60,7 +60,7 @@ nav ul li a:hover {
 }
 .image {
     width: 50%;
-    height: 90%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ nav ul li a:hover {
     transform: translateY(-50%);
 }
 h4 {
-    color: #fcfc;
+    color: white;
     letter-spacing: 2px;
     font-size: 20px;
 }
@@ -146,7 +146,7 @@ h3 {
     text-transform: capitalize;
 }
 .about-text p {
-    color: #fcfc;
+    color: white;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
@@ -168,7 +168,7 @@ h3 {
     cursor: pointer;
 }
 .Project {
-    background: #101010;
+    background: black;
     width: 100%;
     padding: 100px 0;
 }
@@ -185,29 +185,45 @@ h3 {
     align-items: center;
     min-height: 400px;
 }
-.card {
-    height: 365px;
-    width: 270px;
-    padding: 20px 35px;
-    background: #141414;
+.project {
+    height: 500px;
+    width: 365px;
+    padding: 100px 50px;
+    background: black;
     border-radius: 20px;
     margin: 15px;
     position: relative;
     overflow: hidden;
     text-align: center;
     border: 1px solid blacksss;
+
 }
-.card i {
-    font-size: 50px;
+.projectimg {
+    height: 500px;
+    width: 365px;
+    padding: 20px 35px;
+    background: black;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid blacksss;
+
+}
+.projectimg i {
+    font-size: 500px;
     display: block;
     text-align: center;
     margin: 25px 0;
-    color: black;
+    color: black
 }
-.card h5 {
-    color: white;
-    font-size: 23px;
-    margin-bottom: 15px;
+.projectimg i {
+    font-size: 500px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: black
 }
 .pra p {
     color: #fcfc;
@@ -216,28 +232,16 @@ h3 {
     margin-bottom: 25px;
     text-align: justify;
 }
-/* .pra p a {
-    background-color: red;
-    color: white;
-    border: 2px solid white;
-    font-weight: bold;
-    padding: 9px 22px;
-    border-radius: 30px;
-}
-.pra p a {
-    background-color: transparent;
-    border: 2px solid red;
-    cursor: pointer;
-} */
-.Skill {
-    background: #191919;
+
+.skill {
+    background: black;
     width: 100%;
     padding: 100px 0;
 }
 .Skill-bar {
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    color: black;
 }
 .Skill-bar p {
     text-align: left;
@@ -245,28 +249,24 @@ h3 {
 .Skill-box {
     text-align: right;
     width: 100%;
-    background-color: white;
-}
-.html {
-    width: 75%;
     background-color: black;
 }
-.css {
-    width: 75%;
-    background-color: black;
+.skillimg {
+    width: 100%;
+    height: 60%;
+    padding: 100px 0;
 }
-.memasak {
-    width: 88%;
-    background-color: black;
-}
-.berenang {
-    width: 80%;
-    background-color: black;
+..skillimg {
+    width: 140%;
+    height: 70%;
+    padding: 100px 0;
+
+
 }
 .contact-me {
     width: 100%;
     padding: 100px 0;
-    background-color: #101010;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
